@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: "Montserrat", sans-serif;
+  }
+  body {
+    background: #f05454;
+    padding: 0 16px;
+  }
+  
+  header {
+    position: fixed;
+    width: 100%;
+    background-color: #000;
+    height: 58px;
+    padding: 12px 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    z-index: 101;
+  }
+  
+  header h1 {
+    display: inline-block;
+    color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+  }
+  
+  header h1 a {
+    color: #fff;
+  }
+
+  header .icons {
+    color: #fff;
+    float: right;
+  }
+
+  header .icons a {
+    color: #fff;
+  }
+
+  .main{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+    padding: 75px 12px 30px 12px;
+    background-color: #f05454;
+    background-image: url(https://nextrend.com.au/wp-content/uploads/2015/10/restaurant-food-wraps-1024x683.jpg);
+    background-size: cover;
+  }
+ 
+  .search {
+   width: 80%; 
+   margin: 10vh auto; 
+  }
+
+  .swap {
+    width: 80%; 
+    margin: 10px auto; 
+   }
+
+  .white {
+    color: #fff;
+  }
+  
+  .inline {
+    display: inline-block;
+  }
+
+  .floatr {
+    float:right;
+  }
+  
+  .wrap {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
